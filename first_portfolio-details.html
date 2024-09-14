@@ -9,6 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
+    <!-- Favicons -->
   <link href="assets/img/favicon.webp" rel="icon">
   <link href="assets/img/favicon.webp" rel="apple-touch-icon">
 
@@ -36,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
@@ -66,23 +67,7 @@
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
+  
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -94,60 +79,125 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li class="current">Portfolio Details</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#" class="active">Web Design</a>
-              <a href="#">Software Development</a>
-              <a href="#">Product Management</a>
-              <a href="#">Graphic Design</a>
-              <a href="#">Marketing</a>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro2.png" alt="">
+                </div>
+
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro3.png" alt="">
+                </div>
+
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro5.png" alt="">
+                </div>
+
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro6.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/first_pro7.png" alt="">
+                </div>
+
+
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
-
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
-            <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-            <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
-            </p>
-            <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
-            </p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: Car Showroom ERP System</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2> - Comprehensive Car Showroom ERP System</h2>
+              <p>
+                Car Showroom ERP is a sophisticated, web-based Enterprise Resource Planning (ERP) system designed specifically for car showrooms and dealerships. This comprehensive platform offers a user-friendly interface to manage all aspects of car sales operations, from inventory management to financial transactions.
+              </p>
+              <ul>
+                <li><strong>Dashboard:</strong> Provides an overview of key metrics and quick access to critical functions.</li>
+                
+                <li><strong>Stock Management:</strong> Tracks inventory of vehicles, parts, and accessories.</li>
+                
+                <li><strong>Purchase Module:</strong> Manages procurement processes and supplier relationships.</li>
+                
+                <li><strong>Sales Module:</strong> Handles customer interactions, quotations, and sales transactions.</li>
+                
+                <li><strong>BL (Bill of Lading) Management:</strong> Tracks shipping and receiving of vehicles.</li>
+                
+                <li><strong>Voucher System:</strong> Includes a robust journal voucher creation system for financial transactions.</li>
+                
+                <li><strong>Basic Data Management:</strong> Allows for setup and maintenance of foundational information like vehicle models, customer data, etc.</li>
+                
+                <li><strong>Reporting:</strong> Generates various reports for business intelligence and decision-making.</li>
+                
+                <li><strong>Approval System:</strong> Implements workflow approvals for critical processes.</li>
+                
+                <li><strong>Accounts Management:</strong> Handles financial accounting, including multiple account types, expense tracking, and income management.</li>
+                
+                <li><strong>Admin Controls:</strong> Provides system administration and user management capabilities.</li>
+              </ul>
+              <p>
+                This ERP system represents a modern, comprehensive solution for car showroom management, leveraging technology to enhance efficiency, accuracy, and business insights across all operational areas of an automobile dealership.
+              </p>
+            </div>
           </div>
+          
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
@@ -155,14 +205,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <p>© <strong><span>Amir Shahzad Portfolio</span></strong>
       </div>
     </div>
 
